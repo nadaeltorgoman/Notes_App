@@ -1,17 +1,45 @@
-# notes
+# 📝 Notes App
 
-A new Flutter project.
+A lightweight and simple Notes app built with **Flutter**, using **Hive** for local storage and **Cubit** for reactive state management. You can effortlessly **add**, **update**, and **delete** your notes — all offline.
 
-## Getting Started
+![Flutter](https://img.shields.io/badge/flutter-%2302569B.svg?style=for-the-badge&logo=flutter&logoColor=white)
+![Hive](https://img.shields.io/badge/hive-F0C420?style=for-the-badge&logo=hive&logoColor=white)
+![Cubit](https://img.shields.io/badge/cubit-3399FF?style=for-the-badge&logo=bloc&logoColor=white)
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📌 Create new notes
+- 📝 Edit existing notes
+- ❌ Delete unwanted notes
+- ⚡ Lightning-fast local storage with Hive
+- 💡 Clean architecture using Cubit for state management
+<!-- - 🌓 Light and Dark theme support (optional) -->
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-# Notes_App
+<!-- --- -->
+
+<!--## 📸 Screenshots-->
+
+<!-- Add your app screenshots here -->
+<!-- Example: ![screenshot](assets/screenshot1.png) -->
+
+---
+
+## 📦 Dependencies
+
+| Package       | Description                   |
+|---------------|-------------------------------|
+| `hive`        | Lightweight key-value database|
+| `hive_flutter`| Flutter adapter for Hive      |
+| `flutter_bloc`| Bloc & Cubit state management |
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/nadaeltorgoman/notes_app.git
+cd notes_app
